@@ -1,5 +1,6 @@
 package exam.blankQuizContext.domain.model.blankQuiz;
 
+import exam.blankQuizContext.domain.shared.Entity;
 import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
@@ -13,4 +14,9 @@ public class BlankQuiz implements Entity<BlankQuiz> {
     private int score;
     private LocalDateTime createdTime;
     private LocalDateTime updatedTime;
+
+    @Override
+    public boolean sameIdentityAs(BlankQuiz other) {
+        return false;
+    }
 }

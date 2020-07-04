@@ -1,4 +1,4 @@
-package exam.blankQuizContext.infrastructure;
+package exam.blankQuizContext.infrastructure.database;
 
 import exam.blankQuizContext.domain.model.blankQuiz.BlankQuiz;
 import exam.blankQuizContext.domain.model.blankQuiz.BlankQuizId;
